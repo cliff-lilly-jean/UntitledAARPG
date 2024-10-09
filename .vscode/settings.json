@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "UntitledAARPG.sln"
+    "dotnet.defaultSolution": "UntitledAARPG.sln",
+    "editor.formatOnSave": true
 }

@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 0c95bf727f52c42e5b53d1ebf64e5c2f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: smoke vanish_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 360
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf66e548b126a64fafd8ab6a2b21b98
+      internalID: -521188560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke vanish_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 324
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed59246d5a2e9ef43bd9d056cc5c10c2
+      internalID: 1228023016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke vanish_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 288
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81df30669a950d4bb2a6a326695ca77
+      internalID: -1275785216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke vanish_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 252
+        width: 80
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1207a568e12a8049a8b0c439338dd73
+      internalID: 474742877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke vanish_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 215
+        width: 81
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20e18560f79f9545bc56299b437a823
+      internalID: -562204716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke vanish_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 82
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de31c1d3462ec974087f760ff7db0fbc
+      internalID: -2144539510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke vanish_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508f3514b508b8643a28a76ec615e99e
+      internalID: -218593455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke vanish_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 84
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92041a2b8d265004e99c18eda1f85721
+      internalID: 916908817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke vanish_41
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 78
+        width: 63
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2102947147d65624abcad0fbc17b4e63
+      internalID: 1481154960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2f7d342777514934586c11b2a963924c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      smoke vanish_0: -521188560
+      smoke vanish_10: 1684166191
+      smoke vanish_11: 51580342
+      smoke vanish_12: 473798760
+      smoke vanish_13: -2144539510
+      smoke vanish_14: 686889928
+      smoke vanish_15: -802602037
+      smoke vanish_16: -1459999868
+      smoke vanish_17: 72234996
+      smoke vanish_18: 231691783
+      smoke vanish_19: -1951838636
+      smoke vanish_2: 1228023016
+      smoke vanish_20: -1096877328
+      smoke vanish_21: 1998206912
+      smoke vanish_22: -1321279678
+      smoke vanish_23: -1256027568
+      smoke vanish_24: -1990718632
+      smoke vanish_25: -218593455
+      smoke vanish_26: 151995313
+      smoke vanish_27: -555682164
+      smoke vanish_28: -968532591
+      smoke vanish_29: -1411979206
+      smoke vanish_3: 1789083948
+      smoke vanish_30: -325425454
+      smoke vanish_31: 1530895510
+      smoke vanish_32: -1895937580
+      smoke vanish_33: 19354286
+      smoke vanish_34: -1843497172
+      smoke vanish_35: -737641117
+      smoke vanish_36: -664228601
+      smoke vanish_37: -961016086
+      smoke vanish_38: -452432027
+      smoke vanish_39: -1376720266
+      smoke vanish_4: -1275785216
+      smoke vanish_40: 916908817
+      smoke vanish_41: 1481154960
+      smoke vanish_5: 1340128340
+      smoke vanish_6: 474742877
+      smoke vanish_7: -23992515
+      smoke vanish_8: -562204716
+      smoke vanish_9: 1572324112
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

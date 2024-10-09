@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4da4753c17a7e48e0822537ad2e47fdd
+guid: 483a9a4ba9ed64167afee88fec08d56a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,12 +95,100 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: gun attack_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 108
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74d12de2bd5a0b4bbb2c46546c3fbc1
+      internalID: 106745181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun attack_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 72
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c010d3ebd240ec54c8a1090787556f02
+      internalID: -2139213371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun attack_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 36
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421640ae8969b7a47acb533af51ea170
+      internalID: 700531936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun attack_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64872ed339e842429667394096a1cf5
+      internalID: 1264175926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9b25099446869d0469daf05d30c4b202
     internalID: 0
     vertices: []
     indices: 
@@ -109,7 +197,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gun attack_0: 106745181
+      gun attack_1: -784692969
+      gun attack_2: -2139213371
+      gun attack_3: 1026904892
+      gun attack_4: 700531936
+      gun attack_5: -1716561546
+      gun attack_6: 1264175926
+      gun attack_7: 1918319098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

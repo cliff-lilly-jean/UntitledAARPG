@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4f1754a1f09ed430dad8bcd7c5956c3c
+guid: 37bea39460d0348f9a31851381a9c65a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,12 +95,56 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: gun down_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 36
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506f7e822c2c65f4e87573baed720ff6
+      internalID: -403259317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun down_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a6156d3ec9f2c4da9a3217039800a5
+      internalID: -129066980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 976ff8a22cce95948aaec1fe2598b4a2
     internalID: 0
     vertices: []
     indices: 
@@ -109,7 +153,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gun down_0: -403259317
+      gun down_1: 176260876
+      gun down_2: -129066980
+      gun down_3: -1914919828
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
