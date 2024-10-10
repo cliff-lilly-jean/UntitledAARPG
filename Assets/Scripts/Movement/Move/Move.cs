@@ -12,38 +12,35 @@ public class Move : MonoBehaviour
     {
         controls = new GameControls();
 
+        rb = GetComponent<Rigidbody2D>();
 
     }
 
-    private void OnEnable()
-    {
-        controls.Enable();
 
-        controls.Player.Move.performed += _ => UpdateMoveDirection();
-        controls.Player.Move.canceled += _ => ResetMoveDirection();
-    }
-
-    private void OnDisable()
-    {
-        controls.Disable();
-
-        controls.Player.Move.performed -= _ => UpdateMoveDirection();
-        controls.Player.Move.canceled -= _ => ResetMoveDirection();
-    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         movementData.speed = movementData.maxSpeed;
+
+        controls.Player.Move.performed += _ => GetMoveDirection();
+        controls.Player.Move.canceled += _ => ResetMoveDirection();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        GetMoveDirection();
+        UpdateMoveDirection();
+    }
 
-        Debug.Log(movementData.direction);
+    private void OnEnable()
+    {
+        controls.Enable();
+    }
+
+    private void OnDisable()
+    {
+        controls.Disable();
     }
 
     private void GetMoveDirection()
@@ -59,6 +56,6 @@ public class Move : MonoBehaviour
 
     private void ResetMoveDirection()
     {
-        rb.linearVelocity = Vector2.zero;
+        movementData.direction = Vector2.zero;
     }
 }

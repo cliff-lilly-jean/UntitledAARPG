@@ -74,7 +74,7 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""left"",
                     ""id"": ""072771dc-69e5-47e4-8334-e89dd0228af9"",
-                    ""path"": ""<Keyboard>/s"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -85,7 +85,7 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""right"",
                     ""id"": ""5933d31f-c2e7-42a5-a59f-f3f1c45e3592"",
-                    ""path"": ""<Keyboard>/f"",
+                    ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -152,17 +152,6 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""198cdf99-d5e8-4965-9746-d6e1dd522190"",
                     ""path"": ""<Gamepad>/leftStick"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""62685b89-bc48-49b5-b94d-5e9e16d9cb8d"",
-                    ""path"": ""<Joystick>/stick"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
