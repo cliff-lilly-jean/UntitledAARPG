@@ -3,19 +3,16 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     public MovementData movementData;
+    public Animator animator;
+    public Rigidbody2D rb;
+
     private GameControls controls;
 
-
-    private Rigidbody2D rb;
 
     private void Awake()
     {
         controls = new GameControls();
-
-        rb = GetComponent<Rigidbody2D>();
-
     }
-
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -52,10 +49,21 @@ public class Move : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(movementData.direction.x, movementData.direction.y) * movementData.speed;
 
+        CheckAnimationDirection();
+
     }
 
     private void ResetMoveDirection()
     {
         movementData.direction = Vector2.zero;
+    }
+
+    private void CheckAnimationDirection()
+    {
+        var horizontalMovement = movementData.direction.x;
+        var verticalMovement = movementData.direction.y;
+
+        animator.SetFloat("horizontal", horizontalMovement);
+        animator.SetFloat("vertical", verticalMovement);
     }
 }

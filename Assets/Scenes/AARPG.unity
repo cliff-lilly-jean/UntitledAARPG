@@ -594,6 +594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementData: {fileID: 11400000, guid: af191e4534181444ab7bd2b7473b8850, type: 2}
+  animator: {fileID: 1029799105}
 --- !u!95 &1029799105
 Animator:
   serializedVersion: 7
