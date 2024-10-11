@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Move : MonoBehaviour
@@ -6,12 +7,13 @@ public class Move : MonoBehaviour
     public Animator animator;
     public Rigidbody2D rb;
 
-    private GameControls controls;
+    private GameControls _controls;
+    private int _facingDirection = 1; // Default facing direction ins right
 
 
     private void Awake()
     {
-        controls = new GameControls();
+        _controls = new GameControls();
     }
 
 
@@ -20,8 +22,8 @@ public class Move : MonoBehaviour
     {
         movementData.speed = movementData.maxSpeed;
 
-        controls.Player.Move.performed += _ => GetMoveDirection();
-        controls.Player.Move.canceled += _ => ResetMoveDirection();
+        _controls.Player.Move.performed += _ => GetMoveDirection();
+        _controls.Player.Move.canceled += _ => ResetMoveDirection();
     }
 
     // Update is called once per frame
@@ -32,17 +34,17 @@ public class Move : MonoBehaviour
 
     private void OnEnable()
     {
-        controls.Enable();
+        _controls.Enable();
     }
 
     private void OnDisable()
     {
-        controls.Disable();
+        _controls.Disable();
     }
 
     private void GetMoveDirection()
     {
-        movementData.direction = controls.Player.Move.ReadValue<Vector2>();
+        movementData.direction = _controls.Player.Move.ReadValue<Vector2>();
     }
 
     private void UpdateMoveDirection()
@@ -63,7 +65,20 @@ public class Move : MonoBehaviour
         var horizontalMovement = movementData.direction.x;
         var verticalMovement = movementData.direction.y;
 
-        animator.SetFloat("horizontal", horizontalMovement);
-        animator.SetFloat("vertical", verticalMovement);
+        // Makes sure negative values are converted to positive ones. For use in the animator state machine
+        animator.SetFloat("horizontal", Math.Abs(horizontalMovement));
+        animator.SetFloat("vertical", Math.Abs(verticalMovement));
+
+        if (horizontalMovement > 0 && transform.localScale.x < 0 ||
+        horizontalMovement < 0 && transform.localScale.x > 0)
+        {
+            Flip();
+        }
+    }
+
+    private void Flip()
+    {
+        _facingDirection *= -1; // Make the facing direction the opposite of what it was
+        transform.localScale = new Vector3(_facingDirection, transform.localScale.y, transform.localScale.z);
     }
 }
