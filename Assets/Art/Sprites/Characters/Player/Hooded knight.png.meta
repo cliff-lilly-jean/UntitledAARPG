@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hooded knight_0
+      name: Idle_F1
       rect:
         serializedVersion: 2
         x: 27
@@ -105,7 +105,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_1
+      name: Idle_F2
       rect:
         serializedVersion: 2
         x: 91
@@ -127,7 +127,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_2
+      name: Idle_F3
       rect:
         serializedVersion: 2
         x: 155
@@ -149,7 +149,7 @@ TextureImporter:
         width: 10
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -163,7 +163,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_FR1
+      name: Idle_R1
       rect:
         serializedVersion: 2
         x: 26
@@ -171,7 +171,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_FR2
+      name: Idle_R2
       rect:
         serializedVersion: 2
         x: 90
@@ -193,7 +193,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_FR3
+      name: Idle_R3
       rect:
         serializedVersion: 2
         x: 154
@@ -215,7 +215,7 @@ TextureImporter:
         width: 10
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -229,7 +229,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_6
+      name: Idle_B1
       rect:
         serializedVersion: 2
         x: 27
@@ -237,7 +237,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -251,7 +251,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_7
+      name: Idle_B2
       rect:
         serializedVersion: 2
         x: 91
@@ -259,7 +259,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -273,7 +273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_8
+      name: Idle_B3
       rect:
         serializedVersion: 2
         x: 155
@@ -281,7 +281,7 @@ TextureImporter:
         width: 10
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -295,7 +295,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_9
+      name: Walk_R1
       rect:
         serializedVersion: 2
         x: 25
@@ -303,7 +303,7 @@ TextureImporter:
         width: 12
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -317,7 +317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_10
+      name: Walk_R2
       rect:
         serializedVersion: 2
         x: 88
@@ -325,7 +325,7 @@ TextureImporter:
         width: 13
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -339,7 +339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_11
+      name: Walk_R3
       rect:
         serializedVersion: 2
         x: 151
@@ -347,7 +347,7 @@ TextureImporter:
         width: 15
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -361,7 +361,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_12
+      name: Walk_R4
       rect:
         serializedVersion: 2
         x: 217
@@ -369,7 +369,7 @@ TextureImporter:
         width: 11
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_13
+      name: Walk_R5
       rect:
         serializedVersion: 2
         x: 282
@@ -391,7 +391,7 @@ TextureImporter:
         width: 10
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -405,7 +405,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_14
+      name: Walk_R6
       rect:
         serializedVersion: 2
         x: 345
@@ -413,7 +413,7 @@ TextureImporter:
         width: 11
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -427,7 +427,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_15
+      name: Walk_R7
       rect:
         serializedVersion: 2
         x: 409
@@ -435,7 +435,7 @@ TextureImporter:
         width: 11
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -449,7 +449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_16
+      name: Walk_R8
       rect:
         serializedVersion: 2
         x: 472
@@ -457,7 +457,7 @@ TextureImporter:
         width: 13
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -471,7 +471,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_17
+      name: Walk_R9
       rect:
         serializedVersion: 2
         x: 538
@@ -479,7 +479,7 @@ TextureImporter:
         width: 10
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -493,7 +493,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_18
+      name: Walk_R10
       rect:
         serializedVersion: 2
         x: 602
@@ -501,7 +501,7 @@ TextureImporter:
         width: 10
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -515,7 +515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_19
+      name: Walk_F1
       rect:
         serializedVersion: 2
         x: 26
@@ -523,7 +523,7 @@ TextureImporter:
         width: 11
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -537,7 +537,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_20
+      name: Walk_F2
       rect:
         serializedVersion: 2
         x: 90
@@ -545,7 +545,7 @@ TextureImporter:
         width: 11
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -559,7 +559,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_21
+      name: Walk_F3
       rect:
         serializedVersion: 2
         x: 155
@@ -567,7 +567,7 @@ TextureImporter:
         width: 10
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -581,7 +581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_22
+      name: Walk_F4
       rect:
         serializedVersion: 2
         x: 219
@@ -589,7 +589,7 @@ TextureImporter:
         width: 11
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -603,7 +603,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_23
+      name: Walk_F5
       rect:
         serializedVersion: 2
         x: 283
@@ -611,7 +611,7 @@ TextureImporter:
         width: 11
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -625,7 +625,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_24
+      name: Walk_F6
       rect:
         serializedVersion: 2
         x: 347
@@ -633,7 +633,7 @@ TextureImporter:
         width: 11
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -647,7 +647,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_25
+      name: Walk_F7
       rect:
         serializedVersion: 2
         x: 411
@@ -655,7 +655,7 @@ TextureImporter:
         width: 10
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -669,7 +669,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_26
+      name: Walk_F8
       rect:
         serializedVersion: 2
         x: 474
@@ -677,7 +677,7 @@ TextureImporter:
         width: 11
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -691,7 +691,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_27
+      name: Walk_B1
       rect:
         serializedVersion: 2
         x: 26
@@ -699,7 +699,7 @@ TextureImporter:
         width: 11
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -713,7 +713,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_28
+      name: Walk_B2
       rect:
         serializedVersion: 2
         x: 90
@@ -721,7 +721,7 @@ TextureImporter:
         width: 11
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -735,7 +735,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_29
+      name: Walk_B3
       rect:
         serializedVersion: 2
         x: 155
@@ -743,7 +743,7 @@ TextureImporter:
         width: 10
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -757,7 +757,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_30
+      name: Walk_B4
       rect:
         serializedVersion: 2
         x: 219
@@ -765,7 +765,7 @@ TextureImporter:
         width: 11
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -779,7 +779,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_31
+      name: Walk_B5
       rect:
         serializedVersion: 2
         x: 283
@@ -787,7 +787,7 @@ TextureImporter:
         width: 11
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -801,7 +801,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_32
+      name: Walk_B6
       rect:
         serializedVersion: 2
         x: 347
@@ -809,7 +809,7 @@ TextureImporter:
         width: 11
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -823,7 +823,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_33
+      name: Walk_B7
       rect:
         serializedVersion: 2
         x: 411
@@ -831,7 +831,7 @@ TextureImporter:
         width: 10
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -845,7 +845,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_34
+      name: Walk_B8
       rect:
         serializedVersion: 2
         x: 475
@@ -853,7 +853,7 @@ TextureImporter:
         width: 10
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -867,7 +867,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_35
+      name: Damaged_1
       rect:
         serializedVersion: 2
         x: 26
@@ -875,7 +875,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -889,7 +889,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_36
+      name: Damaged_2
       rect:
         serializedVersion: 2
         x: 89
@@ -897,7 +897,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -911,7 +911,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_37
+      name: Damaged_3
       rect:
         serializedVersion: 2
         x: 153
@@ -919,7 +919,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -933,7 +933,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_38
+      name: Damaged_4
       rect:
         serializedVersion: 2
         x: 217
@@ -941,7 +941,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -955,7 +955,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_39
+      name: Damaged_5
       rect:
         serializedVersion: 2
         x: 281
@@ -963,7 +963,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -977,7 +977,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_40
+      name: Death_1
       rect:
         serializedVersion: 2
         x: 26
@@ -985,7 +985,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -999,7 +999,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_41
+      name: Death_2
       rect:
         serializedVersion: 2
         x: 90
@@ -1007,7 +1007,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1021,7 +1021,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_42
+      name: Death_3
       rect:
         serializedVersion: 2
         x: 154
@@ -1029,7 +1029,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1043,7 +1043,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_43
+      name: Death_4
       rect:
         serializedVersion: 2
         x: 219
@@ -1051,7 +1051,7 @@ TextureImporter:
         width: 11
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1065,7 +1065,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_44
+      name: Death_5
       rect:
         serializedVersion: 2
         x: 283
@@ -1073,7 +1073,7 @@ TextureImporter:
         width: 15
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1087,7 +1087,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_45
+      name: Death_6
       rect:
         serializedVersion: 2
         x: 350
@@ -1095,7 +1095,7 @@ TextureImporter:
         width: 19
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1109,7 +1109,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_46
+      name: Death_7
       rect:
         serializedVersion: 2
         x: 414
@@ -1117,7 +1117,7 @@ TextureImporter:
         width: 20
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1131,7 +1131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_47
+      name: Death_8
       rect:
         serializedVersion: 2
         x: 478
@@ -1139,7 +1139,7 @@ TextureImporter:
         width: 21
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1153,7 +1153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_48
+      name: Death_9
       rect:
         serializedVersion: 2
         x: 542
@@ -1161,7 +1161,7 @@ TextureImporter:
         width: 21
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1175,7 +1175,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_49
+      name: Death_10
       rect:
         serializedVersion: 2
         x: 606
@@ -1183,7 +1183,7 @@ TextureImporter:
         width: 21
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1197,7 +1197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_50
+      name: Attack_R1
       rect:
         serializedVersion: 2
         x: 26
@@ -1205,7 +1205,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1219,7 +1219,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_51
+      name: Attack_R2
       rect:
         serializedVersion: 2
         x: 82
@@ -1227,7 +1227,7 @@ TextureImporter:
         width: 33
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1241,7 +1241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_52
+      name: Attack_R3
       rect:
         serializedVersion: 2
         x: 146
@@ -1249,7 +1249,7 @@ TextureImporter:
         width: 25
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1263,7 +1263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_53
+      name: Attack_R4
       rect:
         serializedVersion: 2
         x: 211
@@ -1271,7 +1271,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1285,7 +1285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_54
+      name: Attack_R5
       rect:
         serializedVersion: 2
         x: 275
@@ -1293,7 +1293,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1307,7 +1307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_55
+      name: Attack_R6
       rect:
         serializedVersion: 2
         x: 342
@@ -1315,7 +1315,7 @@ TextureImporter:
         width: 29
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1329,7 +1329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_56
+      name: Attack_R7
       rect:
         serializedVersion: 2
         x: 408
@@ -1337,7 +1337,7 @@ TextureImporter:
         width: 26
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1351,7 +1351,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_57
+      name: Attack_R8
       rect:
         serializedVersion: 2
         x: 473
@@ -1359,7 +1359,7 @@ TextureImporter:
         width: 12
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1373,7 +1373,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_58
+      name: Attack_R9
       rect:
         serializedVersion: 2
         x: 538
@@ -1381,7 +1381,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1395,7 +1395,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_59
+      name: Attack_F1
       rect:
         serializedVersion: 2
         x: 27
@@ -1403,7 +1403,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1417,7 +1417,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_60
+      name: Attack_F2
       rect:
         serializedVersion: 2
         x: 79
@@ -1425,7 +1425,7 @@ TextureImporter:
         width: 25
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1439,7 +1439,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_61
+      name: Attack_F3
       rect:
         serializedVersion: 2
         x: 143
@@ -1447,7 +1447,7 @@ TextureImporter:
         width: 25
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1461,7 +1461,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_62
+      name: Attack_F4
       rect:
         serializedVersion: 2
         x: 209
@@ -1469,7 +1469,7 @@ TextureImporter:
         width: 22
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1483,7 +1483,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_63
+      name: Attack_F5
       rect:
         serializedVersion: 2
         x: 276
@@ -1491,7 +1491,7 @@ TextureImporter:
         width: 19
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1505,7 +1505,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_64
+      name: Attack_F6
       rect:
         serializedVersion: 2
         x: 340
@@ -1513,7 +1513,7 @@ TextureImporter:
         width: 29
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1527,7 +1527,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_65
+      name: Attack_F7
       rect:
         serializedVersion: 2
         x: 405
@@ -1535,7 +1535,7 @@ TextureImporter:
         width: 28
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1549,7 +1549,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_66
+      name: Attack_F8
       rect:
         serializedVersion: 2
         x: 470
@@ -1557,7 +1557,7 @@ TextureImporter:
         width: 23
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1571,7 +1571,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_67
+      name: Attack_F9
       rect:
         serializedVersion: 2
         x: 536
@@ -1579,7 +1579,7 @@ TextureImporter:
         width: 14
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1593,7 +1593,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_68
+      name: Attack_B1
       rect:
         serializedVersion: 2
         x: 27
@@ -1601,7 +1601,7 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1615,7 +1615,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_69
+      name: Attack_B2
       rect:
         serializedVersion: 2
         x: 86
@@ -1623,7 +1623,7 @@ TextureImporter:
         width: 25
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1637,7 +1637,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_70
+      name: Attack_B3
       rect:
         serializedVersion: 2
         x: 153
@@ -1645,7 +1645,7 @@ TextureImporter:
         width: 22
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1659,7 +1659,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_71
+      name: Attack_B4
       rect:
         serializedVersion: 2
         x: 216
@@ -1667,7 +1667,7 @@ TextureImporter:
         width: 23
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1681,7 +1681,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_72
+      name: Attack_B5
       rect:
         serializedVersion: 2
         x: 280
@@ -1689,7 +1689,7 @@ TextureImporter:
         width: 15
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1703,7 +1703,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_73
+      name: Attack_B6
       rect:
         serializedVersion: 2
         x: 337
@@ -1711,7 +1711,7 @@ TextureImporter:
         width: 25
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1725,7 +1725,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_74
+      name: Attack_B7
       rect:
         serializedVersion: 2
         x: 401
@@ -1733,7 +1733,7 @@ TextureImporter:
         width: 22
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1747,7 +1747,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_75
+      name: Attack_B8
       rect:
         serializedVersion: 2
         x: 465
@@ -1755,7 +1755,7 @@ TextureImporter:
         width: 23
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1769,7 +1769,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hooded knight_76
+      name: Attack_B9
       rect:
         serializedVersion: 2
         x: 537
@@ -1777,7 +1777,7 @@ TextureImporter:
         width: 15
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1804,83 +1804,83 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hooded knight_0: -903948491
-      Hooded knight_1: 502905191
-      Hooded knight_10: 366044198
-      Hooded knight_11: 991474596
-      Hooded knight_12: 1472540276
-      Hooded knight_13: -561914899
-      Hooded knight_14: 1322349689
-      Hooded knight_15: -1594130136
-      Hooded knight_16: -1085609692
-      Hooded knight_17: 1681459376
-      Hooded knight_18: -1038217416
-      Hooded knight_19: -645579417
-      Hooded knight_2: 1102335874
-      Hooded knight_20: -2020008444
-      Hooded knight_21: 1214642932
-      Hooded knight_22: -130410346
-      Hooded knight_23: -1146232982
-      Hooded knight_24: 715587975
-      Hooded knight_25: -617570897
-      Hooded knight_26: 614292594
-      Hooded knight_27: 81716982
-      Hooded knight_28: 1264751480
-      Hooded knight_29: 212504338
-      Hooded knight_30: -971576207
-      Hooded knight_31: 1400087591
-      Hooded knight_32: -824307698
-      Hooded knight_33: -1473373128
-      Hooded knight_34: -990951083
-      Hooded knight_35: -1754023227
-      Hooded knight_36: -1939431398
-      Hooded knight_37: 1040122379
-      Hooded knight_38: -1246771860
-      Hooded knight_39: -226200446
-      Hooded knight_40: 46151066
-      Hooded knight_41: 358322408
-      Hooded knight_42: 1028336897
-      Hooded knight_43: -2063601897
-      Hooded knight_44: 540092498
-      Hooded knight_45: -1614320099
-      Hooded knight_46: -1182926311
-      Hooded knight_47: -1396494263
-      Hooded knight_48: 1689191007
-      Hooded knight_49: -865618560
-      Hooded knight_50: -69901800
-      Hooded knight_51: 845744721
-      Hooded knight_52: -2058980372
-      Hooded knight_53: 1780210725
-      Hooded knight_54: -2062389454
-      Hooded knight_55: 1564727618
-      Hooded knight_56: -161643937
-      Hooded knight_57: 911849188
-      Hooded knight_58: 152765169
-      Hooded knight_59: 1308315533
-      Hooded knight_6: 2135790751
-      Hooded knight_60: -299980901
-      Hooded knight_61: 537053215
-      Hooded knight_62: 1801680985
-      Hooded knight_63: 2032120997
-      Hooded knight_64: 786690519
-      Hooded knight_65: 301192024
-      Hooded knight_66: -1327099503
-      Hooded knight_67: -1389623324
-      Hooded knight_68: -49916461
-      Hooded knight_69: -971010446
-      Hooded knight_7: 1795438536
-      Hooded knight_70: -1844926271
-      Hooded knight_71: 1435551220
-      Hooded knight_72: -347842296
-      Hooded knight_73: 2092047811
-      Hooded knight_74: 671012835
-      Hooded knight_75: 1473961409
-      Hooded knight_76: 1568040932
-      Hooded knight_8: -85798153
-      Hooded knight_9: 1369906047
-      Idle_FR1: -1524800903
-      Idle_FR2: -337789796
-      Idle_FR3: -1144720324
+      Attack_B1: -49916461
+      Attack_B2: -971010446
+      Attack_B3: -1844926271
+      Attack_B4: 1435551220
+      Attack_B5: -347842296
+      Attack_B6: 2092047811
+      Attack_B7: 671012835
+      Attack_B8: 1473961409
+      Attack_B9: 1568040932
+      Attack_F1: 1308315533
+      Attack_F2: -299980901
+      Attack_F3: 537053215
+      Attack_F4: 1801680985
+      Attack_F5: 2032120997
+      Attack_F6: 786690519
+      Attack_F7: 301192024
+      Attack_F8: -1327099503
+      Attack_F9: -1389623324
+      Attack_R1: -69901800
+      Attack_R2: 845744721
+      Attack_R3: -2058980372
+      Attack_R4: 1780210725
+      Attack_R5: -2062389454
+      Attack_R6: 1564727618
+      Attack_R7: -161643937
+      Attack_R8: 911849188
+      Attack_R9: 152765169
+      Damaged_1: -1754023227
+      Damaged_2: -1939431398
+      Damaged_3: 1040122379
+      Damaged_4: -1246771860
+      Damaged_5: -226200446
+      Death_1: 46151066
+      Death_10: -865618560
+      Death_2: 358322408
+      Death_3: 1028336897
+      Death_4: -2063601897
+      Death_5: 540092498
+      Death_6: -1614320099
+      Death_7: -1182926311
+      Death_8: -1396494263
+      Death_9: 1689191007
+      Idle_B1: 2135790751
+      Idle_B2: 1795438536
+      Idle_B3: -85798153
+      Idle_F1: -903948491
+      Idle_F2: 502905191
+      Idle_F3: 1102335874
+      Idle_R1: -1524800903
+      Idle_R2: -337789796
+      Idle_R3: -1144720324
+      Walk_B1: 81716982
+      Walk_B2: 1264751480
+      Walk_B3: 212504338
+      Walk_B4: -971576207
+      Walk_B5: 1400087591
+      Walk_B6: -824307698
+      Walk_B7: -1473373128
+      Walk_B8: -990951083
+      Walk_F1: -645579417
+      Walk_F2: -2020008444
+      Walk_F3: 1214642932
+      Walk_F4: -130410346
+      Walk_F5: -1146232982
+      Walk_F6: 715587975
+      Walk_F7: -617570897
+      Walk_F8: 614292594
+      Walk_R1: 1369906047
+      Walk_R10: -1038217416
+      Walk_R2: 366044198
+      Walk_R3: 991474596
+      Walk_R4: 1472540276
+      Walk_R5: -561914899
+      Walk_R6: 1322349689
+      Walk_R7: -1594130136
+      Walk_R8: -1085609692
+      Walk_R9: 1681459376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
