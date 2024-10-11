@@ -8,7 +8,7 @@ public class Move : MonoBehaviour
     public Rigidbody2D rb;
 
     private GameControls _controls;
-    private int _facingDirection = 1; // Default facing direction ins right
+    // private int _facingDirection = 1; // Default facing direction is right
 
 
     private void Awake()
@@ -30,6 +30,7 @@ public class Move : MonoBehaviour
     void FixedUpdate()
     {
         UpdateMoveDirection();
+        CheckAnimationDirection();
     }
 
     private void OnEnable()
@@ -51,8 +52,6 @@ public class Move : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(movementData.direction.x, movementData.direction.y) * movementData.speed;
 
-        CheckAnimationDirection();
-
     }
 
     private void ResetMoveDirection()
@@ -62,23 +61,33 @@ public class Move : MonoBehaviour
 
     private void CheckAnimationDirection()
     {
-        var horizontalMovement = movementData.direction.x;
-        var verticalMovement = movementData.direction.y;
 
-        // Makes sure negative values are converted to positive ones. For use in the animator state machine
-        animator.SetFloat("horizontal", Math.Abs(horizontalMovement));
-        animator.SetFloat("vertical", Math.Abs(verticalMovement));
-
-        if (horizontalMovement > 0 && transform.localScale.x < 0 ||
-        horizontalMovement < 0 && transform.localScale.x > 0)
+        if (movementData.direction.x > 0 && transform.localScale.x < 0 ||
+        movementData.direction.x < 0 && transform.localScale.x > 0)
         {
             Flip();
         }
+
+        // Makes sure negative values are converted to positive ones. For use in the animator state machine
+        animator.SetFloat("horizontal", Math.Abs(movementData.direction.x));
+        animator.SetFloat("vertical", Math.Abs(movementData.direction.y));
+
+
     }
 
     private void Flip()
     {
-        _facingDirection *= -1; // Make the facing direction the opposite of what it was
-        transform.localScale = new Vector3(_facingDirection, transform.localScale.y, transform.localScale.z);
+        // Make the facing direction the opposite of what it was
+        // _facingDirection *= -1;
+
+        if (rb.linearVelocityX > 0)
+        {
+            transform.localScale = Vector3.one;
+        }
+
+        if (rb.linearVelocityX < 0)
+        {
+            transform.localScale = new Vector3(-1f, transform.localScale.y, transform.localScale.z);
+        }
     }
 }
