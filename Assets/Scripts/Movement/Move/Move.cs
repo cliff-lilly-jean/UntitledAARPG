@@ -1,4 +1,4 @@
-using System;
+
 using UnityEngine;
 
 public class Move : MonoBehaviour
@@ -30,7 +30,7 @@ public class Move : MonoBehaviour
     void FixedUpdate()
     {
         UpdateMoveDirection();
-        CheckAnimationDirection();
+        // CheckAnimationDirection();
     }
 
     private void OnEnable()
@@ -59,36 +59,36 @@ public class Move : MonoBehaviour
         movementData.direction = Vector2.zero;
     }
 
-    private void CheckAnimationDirection()
-    {
+    // private void CheckAnimationDirection()
+    // {
 
-        if (movementData.direction.x > 0 && transform.localScale.x < 0 ||
-        movementData.direction.x < 0 && transform.localScale.x > 0)
-        {
-            Flip();
-        }
-
-
-        // Makes sure negative values are converted to positive ones. For use in the animator state machine
-        animator.SetFloat("horizontal", Math.Abs(movementData.direction.x));
-        animator.SetFloat("vertical", Math.Abs(movementData.direction.y));
+    //     // if (movementData.direction.x > 0 && transform.localScale.x < 0 ||
+    //     // movementData.direction.x < 0 && transform.localScale.x > 0)
+    //     // {
+    //     //     Flip();
+    //     // }
 
 
-    }
+    //     // Makes sure negative values are converted to positive ones. For use in the animator state machine
+    //     animator.SetFloat("horizontal", Math.Abs(movementData.direction.x));
+    //     animator.SetFloat("vertical", Math.Abs(movementData.direction.y));
 
-    private void Flip()
-    {
-        // Make the facing direction the opposite of what it was
-        // _facingDirection *= -1;
 
-        if (rb.linearVelocityX > 0)
-        {
-            transform.localScale = Vector3.one;
-        }
+    // }
 
-        if (rb.linearVelocityX < 0)
-        {
-            transform.localScale = new Vector3(-1f, transform.localScale.y, transform.localScale.z);
-        }
-    }
+    // private void Flip()
+    // {
+    //     // Make the facing direction the opposite of what it was
+    //     // _facingDirection *= -1;
+
+    //     if (rb.linearVelocityX > 0)
+    //     {
+    //         transform.localScale = Vector3.one;
+    //     }
+
+    //     if (rb.linearVelocityX < 0)
+    //     {
+    //         transform.localScale = new Vector3(-1f, transform.localScale.y, transform.localScale.z);
+    //     }
+    // }
 }
