@@ -68,6 +68,7 @@ public class Move : MonoBehaviour
             Flip();
         }
 
+
         // Makes sure negative values are converted to positive ones. For use in the animator state machine
         animator.SetFloat("horizontal", Math.Abs(movementData.direction.x));
         animator.SetFloat("vertical", Math.Abs(movementData.direction.y));
