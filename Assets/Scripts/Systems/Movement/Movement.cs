@@ -12,6 +12,8 @@ public class Movement : MonoBehaviour
         movementData.speed = movementData.maxSpeed;
     }
 
+    // TODO: create OnMove, OnDash delegates and events to allow modularity
+
     void FixedUpdate()
     {
         Move();
