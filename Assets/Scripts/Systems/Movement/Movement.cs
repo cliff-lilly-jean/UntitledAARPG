@@ -25,6 +25,9 @@ public class Movement : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(movementData.direction.x, movementData.direction.y) * movementData.speed;
 
+        animator.SetFloat("horizontal", movementData.direction.x);
+        animator.SetFloat("vertical", movementData.direction.y);
+
     }
 
     // private void CheckAnimationDirection()
