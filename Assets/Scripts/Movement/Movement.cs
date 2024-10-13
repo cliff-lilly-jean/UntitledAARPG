@@ -1,62 +1,28 @@
-
 using UnityEngine;
 
-public class Move : MonoBehaviour
+public class Movement : MonoBehaviour
 {
+
     public MovementData movementData;
     public Animator animator;
     public Rigidbody2D rb;
 
-    private GameControls _controls;
-    // private int _facingDirection = 1; // Default facing direction is right
-
-
-    private void Awake()
-    {
-        _controls = new GameControls();
-    }
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
         movementData.speed = movementData.maxSpeed;
-
-        _controls.Player.Move.performed += _ => GetMoveDirection();
-        _controls.Player.Move.canceled += _ => ResetMoveDirection();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
-        UpdateMoveDirection();
+        Move();
         // CheckAnimationDirection();
     }
 
-    private void OnEnable()
-    {
-        _controls.Enable();
-    }
 
-    private void OnDisable()
-    {
-        _controls.Disable();
-    }
-
-    private void GetMoveDirection()
-    {
-        movementData.direction = _controls.Player.Move.ReadValue<Vector2>();
-    }
-
-    private void UpdateMoveDirection()
+    private void Move()
     {
         rb.linearVelocity = new Vector2(movementData.direction.x, movementData.direction.y) * movementData.speed;
 
-    }
-
-    private void ResetMoveDirection()
-    {
-        movementData.direction = Vector2.zero;
     }
 
     // private void CheckAnimationDirection()
