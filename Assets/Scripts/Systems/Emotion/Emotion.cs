@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Mood : MonoBehaviour
+public class Emotion : MonoBehaviour
 {
     /*
 
