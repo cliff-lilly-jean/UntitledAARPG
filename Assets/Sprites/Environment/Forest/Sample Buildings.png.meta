@@ -95,12 +95,100 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sample Buildings_0
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 930
+        width: 635
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636feda49ab1d457581f0f2293326481
+      internalID: -1942034321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sample Buildings_1
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 895
+        width: 550
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2a090534f724535acdaf739a1f395c
+      internalID: 268079586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sample Buildings_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 150
+        width: 435
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3ad6441b18c4e4b9cbc136e4018c83
+      internalID: 1371114743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sample Buildings_3
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 180
+        width: 560
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2065e0570b1654e7189912666e97dd00
+      internalID: -1554102879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f1faa4b3733564ce59076768e5eef6a2
     internalID: 0
     vertices: []
     indices: 
@@ -109,7 +197,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sample Buildings_0: -1942034321
+      Sample Buildings_1: 268079586
+      Sample Buildings_2: 1371114743
+      Sample Buildings_3: -1554102879
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
