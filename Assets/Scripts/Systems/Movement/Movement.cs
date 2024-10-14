@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour
     void FixedUpdate()
     {
         Move();
-        // CheckAnimationDirection();
+        ChangeAnimationDirection();
     }
 
 
@@ -27,36 +27,24 @@ public class Movement : MonoBehaviour
 
     }
 
-    // private void CheckAnimationDirection()
-    // {
 
-    //     // if (movementData.direction.x > 0 && transform.localScale.x < 0 ||
-    //     // movementData.direction.x < 0 && transform.localScale.x > 0)
-    //     // {
-    //     //     Flip();
-    //     // }
+    private void ChangeAnimationDirection()
+    {
+        // change to move animations if moving
+        if (movementData.direction != Vector2.zero)
+        {
+            animator.SetBool("isMoving", true);
+
+            animator.SetFloat("horizontal", movementData.direction.x);
+            animator.SetFloat("vertical", movementData.direction.y);
+        }
+
+        // return to idle animations if not moving
+        if (movementData.direction == Vector2.zero)
+        {
+            animator.SetBool("isMoving", false);
+        }
 
 
-    //     // Makes sure negative values are converted to positive ones. For use in the animator state machine
-    //     animator.SetFloat("horizontal", Math.Abs(movementData.direction.x));
-    //     animator.SetFloat("vertical", Math.Abs(movementData.direction.y));
-
-
-    // }
-
-    // private void Flip()
-    // {
-    //     // Make the facing direction the opposite of what it was
-    //     // _facingDirection *= -1;
-
-    //     if (rb.linearVelocityX > 0)
-    //     {
-    //         transform.localScale = Vector3.one;
-    //     }
-
-    //     if (rb.linearVelocityX < 0)
-    //     {
-    //         transform.localScale = new Vector3(-1f, transform.localScale.y, transform.localScale.z);
-    //     }
-    // }
+    }
 }
