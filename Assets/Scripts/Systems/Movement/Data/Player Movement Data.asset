@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfefd2797f70a4d5099637ef7dc91bc0, type: 3}
   m_Name: Player Movement Data
   m_EditorClassIdentifier: 
-  speed: 3
-  maxSpeed: 5
+  speed: 6
+  maxSpeed: 6
   direction: {x: 0, y: 0}
