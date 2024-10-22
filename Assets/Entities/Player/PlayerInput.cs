@@ -1,18 +1,16 @@
 
 using UnityEngine;
 
-[RequireComponent(typeof(Movement))]
+
 public class PlayerInput : MonoBehaviour
 {
-    private Movement _movement;
+    [SerializeField] private MovementData _movementData;
     private GameControls _controls;
 
 
     private void Awake()
     {
         _controls = new GameControls();
-        _movement = GetComponent<Movement>();
-
     }
 
 
@@ -36,12 +34,12 @@ public class PlayerInput : MonoBehaviour
 
     private void GetDirection()
     {
-        _movement.movementData.direction = _controls.Player.Move.ReadValue<Vector2>();
+        _movementData.direction = _controls.Player.Move.ReadValue<Vector2>();
 
     }
 
     private void ResetDirection()
     {
-        _movement.movementData.direction = Vector2.zero;
+        _movementData.direction = Vector2.zero;
     }
 }

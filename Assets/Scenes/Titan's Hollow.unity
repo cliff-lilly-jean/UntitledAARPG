@@ -604,6 +604,11 @@ Transform:
   - {fileID: 832575519}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1834094797 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 676669020610978647, guid: 4057ae33307cb40a98de2fe4f9ec76c3, type: 3}
+  m_PrefabInstance: {fileID: 8421458317275975797}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2139239454
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,6 +702,18 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6847041276240416431, guid: 4057ae33307cb40a98de2fe4f9ec76c3, type: 3}
+      propertyPath: _movementData
+      value: 
+      objectReference: {fileID: 11400000, guid: af191e4534181444ab7bd2b7473b8850, type: 2}
+    - target: {fileID: 9099577977447492129, guid: 4057ae33307cb40a98de2fe4f9ec76c3, type: 3}
+      propertyPath: _rb
+      value: 
+      objectReference: {fileID: 1834094797}
+    - target: {fileID: 9099577977447492129, guid: 4057ae33307cb40a98de2fe4f9ec76c3, type: 3}
+      propertyPath: _movementData
+      value: 
+      objectReference: {fileID: 11400000, guid: af191e4534181444ab7bd2b7473b8850, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
