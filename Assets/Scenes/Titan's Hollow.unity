@@ -489,7 +489,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448468130}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 886251e9a18ece04ea8e61686c173e1b, type: 3}
   m_Name: 
@@ -520,7 +520,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448468130}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
   m_Name: 
@@ -699,8 +699,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6672176014426306206, guid: 4057ae33307cb40a98de2fe4f9ec76c3, type: 3}
+      propertyPath: m_Size.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672176014426306206, guid: 4057ae33307cb40a98de2fe4f9ec76c3, type: 3}
+      propertyPath: m_Size.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672176014426306206, guid: 4057ae33307cb40a98de2fe4f9ec76c3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 6672176014426306206, guid: 4057ae33307cb40a98de2fe4f9ec76c3, type: 3}
       propertyPath: m_SortingOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672176014426306206, guid: 4057ae33307cb40a98de2fe4f9ec76c3, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6847041276240416431, guid: 4057ae33307cb40a98de2fe4f9ec76c3, type: 3}
       propertyPath: _movementData
@@ -710,6 +726,10 @@ PrefabInstance:
       propertyPath: _rb
       value: 
       objectReference: {fileID: 1834094797}
+    - target: {fileID: 9099577977447492129, guid: 4057ae33307cb40a98de2fe4f9ec76c3, type: 3}
+      propertyPath: _maxSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 9099577977447492129, guid: 4057ae33307cb40a98de2fe4f9ec76c3, type: 3}
       propertyPath: _movementData
       value: 
