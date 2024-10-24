@@ -2,15 +2,15 @@
 using UnityEngine;
 
 
-public class PlayerInput : MonoBehaviour
+public class Input : MonoBehaviour
 {
     [SerializeField] private MovementData _movementData;
-    private GameControls _controls;
+    private Controls _controls;
 
 
     private void Awake()
     {
-        _controls = new GameControls();
+        _controls = new Controls();
     }
 
 

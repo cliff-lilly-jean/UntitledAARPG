@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SpriteAnimation : MonoBehaviour
+public class Animations : MonoBehaviour
 {
 
     [SerializeField] private MovementData _movementData;
